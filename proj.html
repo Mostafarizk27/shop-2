@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="project.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="cruds">
+        <div class="head">
+            <h1>cruds</h1>
+                <p>welcome</p>
+
+        </div>
+        <div class="input">
+<input type="text" placeholder="title" id="title">
+        <div>
+            <div class="price">
+                <input onkeyup="getTotal()"type="number" placeholder="price" id="price" >
+                <input onkeyup="getTotal()"type="number" placeholder="taxs" id="taxs" >
+                <input onkeyup="getTotal()"type="number" placeholder="ads" id="ads" >
+                <input onkeyup="getTotal()"type="number" placeholder="dicount" id="dicount" >
+                <small id="total">21452</small>
+                </div>
+                <input type="number" placeholder="count" id="count">
+                <input type="text" placeholder="category" id="category">
+                <button id="create">create</button>  
+            </div>
+
+
+        </div>
+        <div class="output">
+            <div class="searchblock">
+                <input type="text" placeholder="search" id="search">
+                <div class="btnsearch"> 
+                    <button id="search by category">search by category</button>
+                    <button id="search by Title">search by Title</button>
+
+                </div>
+            </div>
+
+<table>
+    <tr>
+<th>id</th>
+<th>title</th>
+<th>price</th>
+<th>taxes</th>
+<th>ads</th>
+<th>discount</th>
+<th>total</th>
+<th>category</th>
+<th>update</th>
+<th>delete</th>
+    </tr>
+
+    <tbody id="tbody">
+           
+    </tbody>
+
+</table>
+
+
+        </div>
+
+
+
+    </div>
+    <script src="proje.js"></script>
+</body>
+</html>
